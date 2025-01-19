@@ -1,0 +1,109 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #89f7fe, #66a6ff);
+  color: #333;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #fff;
+  background: #333;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+header h1 span {
+  color: #66a6ff;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #66a6ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #fff;
+}
+
+section {
+  padding: 4rem 2rem;
+  background: #fff;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project {
+  text-align: center;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project i {
+  font-size: 3rem;
+  color: #66a6ff;
+}
+
+.project h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  section {
+    padding: 2rem 1rem;
+  }
+}
